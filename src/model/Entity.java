@@ -7,7 +7,7 @@ public abstract class Entity{
   private int experience;
   private int mana;
   private int defense;
-  private Type type;
+  private Class type;
   private Damage damage;
   private ArrayList<Skills> skills;
 
@@ -17,7 +17,7 @@ public abstract class Entity{
     experience = 0;
     mana = 0;
     defense = 0;
-    type = new Type();
+    type = new Class();
     damage = new Damage();
     habilities = new ArrayList<Skills>();
   }//End constructo
